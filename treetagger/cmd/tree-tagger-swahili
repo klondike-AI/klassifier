@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Set these paths appropriately
+
+BIN="/home/jovyan/work/treetagger/bin"
+CMD="/home/jovyan/work/treetagger/cmd"
+LIB="/home/jovyan/work/treetagger/lib"
+
+OPTIONS="-token -lemma -sgml"
+
+TOKENIZER=${CMD}/utf8-tokenize.perl
+ABBR_LIST=${LIB}/swahili-abbreviations
+TAGGER=${BIN}/tree-tagger
+PARFILE=${LIB}/swahili.par
+
+$TOKENIZER -a $ABBR_LIST $* |
+$TAGGER $OPTIONS $PARFILE

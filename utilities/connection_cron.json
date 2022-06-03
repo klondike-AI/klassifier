@@ -1,0 +1,11 @@
+{
+    "host": "127.0.0.1", 
+    "database": "dbname", 
+    "user": "root", 
+    "psw": "example",
+    "port": 3306,
+    "cron_table": "cron",
+    "cron_id": "id",
+    "service_id": "serviceid",
+    "completed_name": "status"
+}
