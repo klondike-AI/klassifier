@@ -1,0 +1,18 @@
+{
+    "host": "127.0.0.1", 
+    "database": "dbname", 
+    "user": "root", 
+    "psw": "example",
+    "port": 3306,
+    "service_table": "services",
+    "service_id": "id",
+    "table_name_field": "training_table", 
+    "table_key_field": "training_table_key", 
+    "column_names_field": "training_columns", 
+    "where_clause_field": "training_where",
+    "target_name_field": "training_target",
+	"parameters_field": "parameters",
+    "vte_url": "vte_url",
+    "module": "module",
+    "fieldname": "fieldname"
+}
