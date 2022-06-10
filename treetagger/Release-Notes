@@ -1,0 +1,5 @@
+
+new in version 3.2.2:
+
+There is no longer an option "-cap-heuristics" because this option has
+been modified and turned into the default behaviour of the tagger.
