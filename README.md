@@ -22,6 +22,7 @@ Unzip the file in /etc/klondike_classifier
 - `python3 -m spacy download pt_core_news_lg`
 - `python3 -m spacy download nb_core_news_lg`
 - `python3 -m spacy download da_core_news_lg`
+- `cd treetagger && unzip lib.zip`
 
 ### ▶️ STEP 3:
 Go to https://huggingface.co/neuraly/bert-base-italian-cased-sentiment > Files and versions > download and copy in folder `pretrained_models` the files:
